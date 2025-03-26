@@ -5,7 +5,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 repo_owner = "angular"
 repo_name = "angular"
 api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}"
-GITHUB_TOKEN = "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"  # Substitua pelo seu token gerado
+GITHUB_TOKEN = ""  # Substitua pelo seu token gerado
 HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"}
 
 def get_last_releases():
